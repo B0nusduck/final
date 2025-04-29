@@ -32,8 +32,8 @@
         </Grid.ColumnDefinitions>
             
         <!--center screen space-->
-        <BoxView Grid.Row="1"
-                    Grid.Column="3"/>
+        <!--<BoxView Grid.Row="1"
+                    Grid.Column="3"/>-->
         <Label  Text="motor strength (%)"
                 FontSize="Large"
                 FontAttributes="Bold"

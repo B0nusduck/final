@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\study\\works\\class\\final\\code\\ControlApp\\windowApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0FE0A9-FE04-4D12-9C55-1A73C5A2B2F5}|bluetoothController\\bluetoothController.csproj|d:\\study\\works\\class\\final\\code\\controlapp\\windowapp\\bluetoothcontroller\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B0FE0A9-FE04-4D12-9C55-1A73C5A2B2F5}|bluetoothController\\bluetoothController.csproj|solutionrelative:bluetoothcontroller\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0FE0A9-FE04-4D12-9C55-1A73C5A2B2F5}|bluetoothController\\bluetoothController.csproj|d:\\study\\works\\class\\final\\code\\controlapp\\windowapp\\bluetoothcontroller\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B0FE0A9-FE04-4D12-9C55-1A73C5A2B2F5}|bluetoothController\\bluetoothController.csproj|solutionrelative:bluetoothcontroller\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0FE0A9-FE04-4D12-9C55-1A73C5A2B2F5}|bluetoothController\\bluetoothController.csproj|d:\\study\\works\\class\\final\\code\\controlapp\\windowapp\\bluetoothcontroller\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B0FE0A9-FE04-4D12-9C55-1A73C5A2B2F5}|bluetoothController\\bluetoothController.csproj|solutionrelative:bluetoothcontroller\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0FE0A9-FE04-4D12-9C55-1A73C5A2B2F5}|bluetoothController\\bluetoothController.csproj|d:\\study\\works\\class\\final\\code\\controlapp\\windowapp\\bluetoothcontroller\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B0FE0A9-FE04-4D12-9C55-1A73C5A2B2F5}|bluetoothController\\bluetoothController.csproj|solutionrelative:bluetoothcontroller\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0FE0A9-FE04-4D12-9C55-1A73C5A2B2F5}|bluetoothController\\bluetoothController.csproj|d:\\study\\works\\class\\final\\code\\controlapp\\windowapp\\bluetoothcontroller\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B0FE0A9-FE04-4D12-9C55-1A73C5A2B2F5}|bluetoothController\\bluetoothController.csproj|solutionrelative:bluetoothcontroller\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\study\\works\\class\\final\\code\\ControlApp\\windowApp\\bluetoothController\\AppShell.xaml",
+              "RelativeDocumentMoniker": "bluetoothController\\AppShell.xaml",
+              "ToolTip": "D:\\study\\works\\class\\final\\code\\ControlApp\\windowApp\\bluetoothController\\AppShell.xaml",
+              "RelativeToolTip": "bluetoothController\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-22T06:22:02.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\study\\works\\class\\final\\code\\ControlApp\\windowApp\\bluetoothController\\MainPage.xaml",
+              "RelativeDocumentMoniker": "bluetoothController\\MainPage.xaml",
+              "ToolTip": "D:\\study\\works\\class\\final\\code\\ControlApp\\windowApp\\bluetoothController\\MainPage.xaml",
+              "RelativeToolTip": "bluetoothController\\MainPage.xaml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAIwCkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-21T08:34:46.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\study\\works\\class\\final\\code\\ControlApp\\windowApp\\bluetoothController\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "bluetoothController\\MainPage.xaml.cs",
+              "ToolTip": "D:\\study\\works\\class\\final\\code\\ControlApp\\windowApp\\bluetoothController\\MainPage.xaml.cs",
+              "RelativeToolTip": "bluetoothController\\MainPage.xaml.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAgwGoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T18:25:37.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "D:\\study\\works\\class\\final\\code\\ControlApp\\windowApp\\bluetoothController\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "bluetoothController\\AppShell.xaml.cs",
+              "ToolTip": "D:\\study\\works\\class\\final\\code\\ControlApp\\windowApp\\bluetoothController\\AppShell.xaml.cs",
+              "RelativeToolTip": "bluetoothController\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T06:22:03.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\study\\works\\class\\final\\code\\ControlApp\\windowApp\\bluetoothController\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "bluetoothController\\MauiProgram.cs",
+              "ToolTip": "D:\\study\\works\\class\\final\\code\\ControlApp\\windowApp\\bluetoothController\\MauiProgram.cs",
+              "RelativeToolTip": "bluetoothController\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T17:30:43.835Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

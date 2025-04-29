@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="bluetoothController.MainPage">
+    
+    <Grid RowSpacing="5"
+            ColumnSpacing="5"
+            Padding="30"
+            BackgroundColor= "DarkGrey">
+        <Grid.RowDefinitions>
+            <!--setting rows-->
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2.5*"/>
+                
+            <!--control rows-->
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <!--left crt-->
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <!--middle space-->
+            <ColumnDefinition Width="8*"/>
+            <!--right crt-->
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+            
+        <!--center screen space-->
+        <BoxView Grid.Row="1"
+                    Grid.Column="3"/>
+        <Label  Text="motor strength (%)"
+                FontSize="Large"
+                FontAttributes="Bold"
+                TextColor="Black"
+                Grid.Row="1"
+                Grid.Column="3"
+                HorizontalOptions="Center"
+                VerticalOptions="End"/>
+        <Entry Text="100"
+               x:Name="entry"
+               Placeholder="Enter text"
+               TextChanged="MotorStrenghtEntry"
+               Grid.Row="2"
+               Grid.Column="3"
+               HorizontalOptions="Center"
+               VerticalOptions="End"/>
+
+        <!--bluetooth connection-->
+        <!--<BoxView Grid.Row="0"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="3"
+                    Color="White"/>-->
+        <Button Text="connect to vehicle"
+                x:Name="BluetoothConnectionBTN"
+                Clicked="BluetoothConnectionBTN_Clicked"
+                Pressed="BTNPressed"
+                Grid.Row="0"
+                Grid.Column="0"
+                Grid.ColumnSpan="3"
+                BackgroundColor="Red"/>
+            
+        <!--primary wheel control-->
+        <Label Text="Wheel control"
+                FontSize="Large"
+                FontAttributes="Bold"
+                TextColor="Black"
+                Grid.Row="1"
+                Grid.Column="0"
+                Grid.ColumnSpan="3"
+                HorizontalOptions="Center"
+                VerticalOptions="End"/>
+            
+        <!--<BoxView Grid.Row="2"
+                    Grid.Column="1"
+                    Color="Orange"/>-->
+        <ImageButton Source="up.png"
+                        x:Name="WheelForwardBTN"
+                        Pressed="WheelForwardBTN_Pressed"
+                        Released="WheelBTN_Released"
+                        Grid.Row="2"
+                        Grid.Column="1"
+                        HorizontalOptions="Fill"
+                        VerticalOptions="Fill"
+                        Padding="5"
+                        BorderColor="Black"
+                        BorderWidth="1.3"
+                        CornerRadius="10"/>
+
+        <!--<BoxView Grid.Row="3"
+                    Grid.Column="0"
+                    Color="Orange"/>-->
+        <ImageButton Source="left.png"
+                        x:Name="WheelLeftBTN"
+                        Pressed="WheelLeftBTN_Pressed"
+                        Released="WheelBTN_Released"
+                        Grid.Row="3"
+                        Grid.Column="0"
+                        HorizontalOptions="Fill"
+                        VerticalOptions="Fill"
+                        Padding="8"
+                        BorderColor="Black"
+                        BorderWidth="1.3"
+                        CornerRadius="10"/>
+
+        <!--<BoxView Grid.Row="3"
+                    Grid.Column="2"
+                    Color="Orange"/>-->
+        <ImageButton Source="right.png"
+                        x:Name="WheelRightBTN"
+                        Pressed="WheelRightBTN_Pressed"
+                        Released="WheelBTN_Released"
+                        Grid.Row="3"
+                        Grid.Column="2"
+                        HorizontalOptions="Fill"
+                        VerticalOptions="Fill"
+                        Padding="8 "
+                        BorderColor="Black"
+                        BorderWidth="1.3"
+                        CornerRadius="10"/>
+
+        <!--<BoxView Grid.Row="4"
+                    Grid.Column="1"
+                    Color="Orange"/>-->
+        <ImageButton Source="down.png"
+                        x:Name="WheelBackBTN"
+                        Pressed="WheelBackBTN_Pressed"
+                        Released="WheelBTN_Released"
+                        Grid.Row="4"
+                        Grid.Column="1"
+                        HorizontalOptions="Fill"
+                        VerticalOptions="Fill"
+                        Padding="5"
+                        BorderColor="Black"
+                        BorderWidth="1.3"
+                        CornerRadius="10"/>
+            
+        <!--lift control-->
+        <Label Text="Lift control"
+                FontSize="Large"
+                FontAttributes="Bold"
+                TextColor="Black"
+                Grid.Row="1"
+                Grid.Column="4"
+                Grid.ColumnSpan="3"
+                HorizontalOptions="Center"
+                VerticalOptions="End"
+                Margin="0,0,40,0"/>
+            
+        <!--<BoxView Grid.Row="2"
+                    Grid.Column="5"
+                    Color="White"/>-->
+        <ImageButton Source="up.png"
+                        x:Name="LiftUpBTN"
+                        Pressed="LiftUpBTN_Pressed"
+                        Released="LiftBTN_Released"
+                        Grid.Row="2"
+                        Grid.Column="5"
+                        HorizontalOptions="Fill"
+                        VerticalOptions="Fill"
+                        Padding="5"
+                        BorderColor="Black"
+                        BorderWidth="1.3"
+                        CornerRadius="10"/>
+            
+        <!--<BoxView Grid.Row="3"
+                    Grid.Column="5"
+                    Color="White"/>-->
+        <ImageButton Source="down.png"
+                        x:Name="LiftDownBTN"
+                        Pressed="LiftDownBTN_Pressed"
+                        Released="LiftBTN_Released"
+                        Grid.Row="3"
+                        Grid.Column="5"
+                        HorizontalOptions="Fill"
+                        VerticalOptions="Fill"
+                        Padding="5"
+                        BorderColor="Black"
+                        BorderWidth="1.3"
+                        CornerRadius="10"/>
+    </Grid>
+</ContentPage>

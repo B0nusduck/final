@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/liftDown"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:importantForAccessibility="no"
+        android:scaleType="fitXY"
+        android:src="@drawable/down"
+        app:layout_constraintBottom_toBottomOf="@+id/wheelBackward"
+        app:layout_constraintEnd_toEndOf="@+id/liftUp"
+        app:layout_constraintStart_toStartOf="@+id/liftUp"
+        app:layout_constraintTop_toTopOf="@+id/wheelRight"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/liftUp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="80dp"
+        android:importantForAccessibility="no"
+        android:scaleType="fitXY"
+        android:src="@drawable/up"
+        app:layout_constraintBottom_toBottomOf="@+id/wheelRight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/wheelForward" />
+
+    <Button
+        android:id="@+id/Connection"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/ConnectBtnOff"
+        app:layout_constraintEnd_toEndOf="@+id/wheelRight"
+        app:layout_constraintStart_toStartOf="@+id/wheelLeft"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/wheelForward"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="70dp"
+        android:importantForAccessibility="no"
+        android:scaleType="fitXY"
+        android:src="@drawable/up"
+        app:layout_constraintBottom_toTopOf="@+id/wheelBackward"
+        app:layout_constraintStart_toEndOf="@+id/wheelLeft" />
+
+    <ImageButton
+        android:id="@+id/wheelLeft"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="15dp"
+        android:importantForAccessibility="no"
+        android:scaleType="fitXY"
+        android:src="@drawable/left"
+        app:layout_constraintBottom_toTopOf="@+id/wheelBackward"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wheelForward"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/wheelRight"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="70dp"
+        android:importantForAccessibility="no"
+        android:scaleType="fitXY"
+        android:src="@drawable/right"
+        app:layout_constraintBottom_toTopOf="@+id/wheelBackward"
+        app:layout_constraintStart_toEndOf="@+id/wheelLeft"
+        app:layout_constraintTop_toBottomOf="@+id/wheelForward" />
+
+    <ImageButton
+        android:id="@+id/wheelBackward"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="15dp"
+        android:importantForAccessibility="no"
+        android:scaleType="fitXY"
+        android:src="@drawable/down"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/wheelLeft"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/wheelControlLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wheel_control"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/wheelForward"
+        app:layout_constraintEnd_toEndOf="@+id/wheelForward"
+        app:layout_constraintStart_toStartOf="@+id/wheelForward"
+        app:layout_constraintTop_toBottomOf="@+id/Connection"
+        app:layout_constraintVertical_bias="0.512" />
+
+    <TextView
+        android:id="@+id/liftControlLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lift_control"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/wheelControlLabel"
+        app:layout_constraintEnd_toEndOf="@+id/liftUp"
+        app:layout_constraintStart_toStartOf="@+id/liftUp"
+        app:layout_constraintTop_toTopOf="@+id/wheelControlLabel" />
+
+    <TextView
+        android:id="@+id/wheelStrengthLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wheel_strength"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/wheelControlLabel"
+        app:layout_constraintEnd_toStartOf="@+id/liftControlLabel"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toEndOf="@+id/wheelControlLabel"
+        app:layout_constraintTop_toTopOf="@+id/wheelControlLabel"
+        app:layout_constraintVertical_bias="0.518" />
+
+    <TextView
+        android:id="@+id/wheelStrengthUnitLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/percentage_char"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextWheelStrength"
+        app:layout_constraintStart_toEndOf="@+id/editTextWheelStrength"
+        app:layout_constraintTop_toTopOf="@+id/editTextWheelStrength" />
+
+    <EditText
+        android:id="@+id/editTextWheelStrength"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:width="70dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="number|numberDecimal"
+        android:text="@string/_100"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/wheelRight"
+        app:layout_constraintEnd_toEndOf="@+id/wheelStrengthLabel"
+        app:layout_constraintStart_toStartOf="@+id/wheelStrengthLabel"
+        app:layout_constraintTop_toBottomOf="@+id/wheelStrengthLabel"
+        app:layout_constraintVertical_bias="0.591"
+        tools:ignore="LabelFor" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

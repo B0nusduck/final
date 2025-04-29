@@ -1,0 +1,9 @@
+-input this command to the linux console.
+sudo crontab -e
+
+-a promp will appear asking you to choose a text editor, choose anything you like.
+
+-after choosing it will open the file up, scroll down to the bottom and write the following line.
+@reboot sudo systemctl enable bluetooth & sudo rfkill unblock bluetooth & python3 /home/admin/Desktop/main.py &
+
+-after that save the file then restart, the device should run the main.py file on start up from now.

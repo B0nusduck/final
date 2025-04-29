@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ControlApp</string>
+    <string name="ok">ok</string>
+    <string name="ConnectBtnOff">Connect to vehicle</string>
+    <string name="ConnectBtnOn">Disconnect from vehicle</string>
+    <string name="lift_control">Lift control</string>
+    <string name="wheel_control">Wheel control</string>
+    <string name="_100">100</string>
+    <string name="wheel_strength">Wheel strength</string>
+    <string name="percentage_char">%</string>
+</resources>

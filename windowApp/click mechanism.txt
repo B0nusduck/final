@@ -1,9 +1,0 @@
-create 5 private variable for 5 of the motor.
-
-replace all on press function to onclick and on release.
-
-on click: add/remove value to the appropriate value then concat and sent it
-then call common onclick.
-
-on release: undo the appropriate value, concat the value then sent 
-and call common onclick.

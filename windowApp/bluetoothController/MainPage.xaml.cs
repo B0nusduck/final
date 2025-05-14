@@ -256,7 +256,7 @@ namespace bluetoothController
             buttonWR.IsEnabled = false;
             buttonWB.IsEnabled = false;
             BTNPressed(sender, e);
-            SentData(Mainclient, $"move w {motorStrength} {motorStrength} 0 0");
+            SentData(Mainclient, $"move w {motorStrength} {motorStrength} {motorStrength} {motorStrength}");
         }
 
 
@@ -284,7 +284,7 @@ namespace bluetoothController
             buttonWL.IsEnabled = false;
             buttonWR.IsEnabled = false;
             BTNPressed(sender, e);
-            SentData(Mainclient, $"move w 0 0 {motorStrength} {motorStrength}");
+            SentData(Mainclient, $"move w {-motorStrength} {-motorStrength} {-motorStrength} {-motorStrength}");
         }
 //move l 1/0/-1
         private void LiftBTN_Released(object sender, EventArgs e)
